@@ -1,7 +1,7 @@
 const meals = document.getElementById('meals');
-
+getRandomMeal();
 async function getRandomMeal() {
- const res = await fetch('www.themealdb.com/api/json/v1/1/random.php')
+ const res = await fetch('https://www.themealdb.com/api/json/v1/1/random.php')
  console.log(res)
 
  const resData = await res.json();
