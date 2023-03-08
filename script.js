@@ -37,5 +37,5 @@ function addMeal(mealData, random = false) {
         </button>
       </div>
   `;
-  meal.appendChild(meal);
+  meals.appendChild(meal);
 }
